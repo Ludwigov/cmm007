@@ -1,3 +1,29 @@
 h1{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    </head>
+    <body>
+
+    <header>
+    <h1>My Mug Tracker Website</h1>
+
+    <nav>
+    <ul>
+    <li><a href="index.html">Home Page</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="signup.html">Signup</a></li>
+    </ul>
+    </nav>
+    </header>
+
+    <main>
+    <h2>Welcome to my Mug Tracker!</h2>
+    <p>This website is used to keep track of all of my mugs</p>
     color: blue;
+    width="420px" height="500px"
+    <marquee>Welcome to my Mug Tracker!</marquee>
 }
