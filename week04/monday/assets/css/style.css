@@ -1,29 +1,58 @@
-h1{
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <title>Home Page</title>
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
-    </head>
-    <body>
 
-    <header>
-    <h1>My Mug Tracker Website</h1>
+header{
+    /*Colourings*/
+    background-color:cornflowerblue;s
+    /*Content*/
+    height:30px;
+    width:60px;
+}
 
-    <nav>
-    <ul>
-    <li><a href="index.html">Home Page</a></li>
-    <li><a href="login.html">Login</a></li>
-    <li><a href="signup.html">Signup</a></li>
-    </ul>
-    </nav>
-    </header>
+header{
+    background-color: yellow;
+}
 
-    <main>
-    <h2>Welcome to my Mug Tracker!</h2>
-    <p>This website is used to keep track of all of my mugs</p>
-    color: blue;
-    width="420px" height="500px"
-    <marquee>Welcome to my Mug Tracker!</marquee>
+nav {
+
+    background-color: red;
+}
+
+p {
+padding-left: 90%;
+    background-color: red;
+}
+img src{background-color: blue;
+}
+
+h3{content width:50px; height: 100px;
+
+}
+ul{ background-color: gold;
+
+}
+p{height: 100px;
+  width: 50px;
+}
+p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+div id{width:80px;
+      height:100px;
+      background-color:blue;
+      animation-name: example;
+      animation-duration: 4s;
+}
+div id{
+    from{background-color:green;}
+    to{background-color: black:}
+}
+#mugcontainer {
+
+}
+.inner_block {
+
+}
+
+#images{
+    border: 2px solid green;
 }
