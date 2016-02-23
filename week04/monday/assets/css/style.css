@@ -49,8 +49,10 @@ div id{
 #mugcontainer {
 
 }
-.inner_block {
-
+.inner_block img {
+    width: 200px;
+    height:150px;
+    float: right;
 }
 
 #images{
