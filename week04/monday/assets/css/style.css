@@ -1,0 +1,63 @@
+
+header{
+    /*Colourings*/
+    background-color:cornflowerblue;
+    /*Content*/
+    height:30px;
+    width:60px;
+}
+
+header{
+    background-color: yellow;
+}
+
+nav {
+
+    background-color: red;
+}
+
+p {
+padding-left: 90%;
+    background-color: red;
+}
+img {
+    background-color: blue;
+}
+
+h3{
+    width:50px;
+    height: 100px;
+}
+
+ul{ background-color: gold;
+
+}
+p{height: 100px;
+  width: 50px;
+}
+p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+/*div id{width:80px;
+      height:100px;
+      background-color:blue;
+      animation-name: example;
+      animation-duration: 4s;
+}
+div id{
+    from{background-color:green;}
+    to{background-color: black:}
+}*/
+#mugcontainer {
+
+}
+.inner_block img {
+    width: 200px;
+    height:150px;
+    float: right;
+}
+
+#images{
+    border: 2px solid green;
+}
