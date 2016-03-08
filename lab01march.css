@@ -22,21 +22,21 @@ li a {
 }
 
 .col1{
-    width: 33%;
+    width: 31%;
     float: left;
-
+    margin:1%;
 }
 
 #col2{
     width: 30%;
     display:inline-block;
     margin:1%;
-    padding:1%;
+
 }
 
 #col3{
     width: 33%;
     float:right;
     margin:1%;
-    padding:1%;
+
 }
