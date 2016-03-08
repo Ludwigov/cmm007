@@ -23,12 +23,15 @@ li a {
 
 #col1 {
     width: 33%;
+    float: left;
 }
 
 #col2 {
     width: 33%;
+    display:inline-block;
 }
 
 #col3 {
     width: 33%;
+    float:right;
 }
