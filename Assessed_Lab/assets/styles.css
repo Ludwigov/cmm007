@@ -1,0 +1,42 @@
+html {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+#banner img{
+    width: auto;
+}
+
+#banner {
+    width: 960px;
+}
+h1{
+    /*width:33%;*/
+     display:inline-block;
+    /*margin:1%*/
+}
+#ted{
+    background-color: #363636;
+    border: 1px solid green;
+}
+#col1{
+    width:66%;
+    }
+#col2{
+    background-colour:#DBC9DF;
+    width:33%;
+    /*margin:1%;*/
+}
+#col3{
+    width:66%;
+}
+#col4{
+    background-colour:#782A7E
+    width:33%;
+   /* margin:1%;*/
+}
+h5{
+    font-size:200%;
+}
+.content{
+}

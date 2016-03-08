@@ -1,0 +1,33 @@
+main {
+    max-width: 960px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none
+}
+
+#col1 {
+    width: 33%;
+}
+
+#col2 {
+    width: 33%;
+}
+
+#col3 {
+    width: 33%;
+}
+
