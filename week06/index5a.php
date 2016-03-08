@@ -1,7 +1,9 @@
 <?php
-$wantedgood = 3;
+for($x=1; $x<=3; $x++){
+//$wantedgood = 3;
 
 switch($wantedgood){
+//switch($wantedgood){
     case 1:
         echo "have to be 21 or above";
         break;
@@ -13,5 +15,7 @@ switch($wantedgood){
         break;
     default:
         echo "Thank you for participating";
+}
+
 }
 ?>
