@@ -21,11 +21,11 @@ li a {
     text-decoration: none
 }
 
-#col1{
+.col1{
     width: 33%;
     float: left;
-    margin:1%
-    padding:1%
+    margin:1%;
+    padding:1%;
 }
 
 #col2{
