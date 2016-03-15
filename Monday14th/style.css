@@ -8,6 +8,7 @@
 
 #h1{
     background-color: blanchedalmond;
+    align:center;
 }
 
 label{
@@ -23,7 +24,7 @@ div {
     font-size:20px;
 }
 
-#head{
+/*#head{
     align:center;
 
-}
+}*/
