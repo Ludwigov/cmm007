@@ -1,4 +1,4 @@
-<?php
+
 <!doctype html>
 <html>
 <head>
@@ -8,14 +8,14 @@
     </head>
 
 <body>
-<h1>PHP Login Form wtith Session</h1>
+<h1>PHP Login Form with Session</h1>
 <div class="loginBox">
    <h3>Login Form</h3>
 <br><br>
 <form method="post" action="login.php">
     <label>Username:</lable><br>
-    <input type="text" name="username" placeholder="username"
-/><br><br>
+    <input type="text" name="username" placeholder="username" />
+        /><br><br>
     <label>Password:</label><br>
     <input type="password" name="password" placeholder="password" />
 <br><br>
