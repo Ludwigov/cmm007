@@ -10,9 +10,9 @@
     </head>
 
     <body>
-<a href="1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Earth">Earth</a>"
-<a href="1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Mars">Mars</a>
-<a href="1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Uranus">Uranus</a>
+<a href="http://1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Earth">Earth</a>"
+<a href="http://1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Mars">Mars</a>
+<a href="http://1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Uranus">Uranus</a>
         <main>
 
             <p>Hello <?php echo $p; ?></p>
