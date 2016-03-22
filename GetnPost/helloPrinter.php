@@ -1,6 +1,6 @@
 <?php
 
-    $p = $_GET['$planet'];
+    $p = $_GET['planet'];
 
 ?>
 
