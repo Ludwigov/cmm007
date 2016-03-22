@@ -1,6 +1,6 @@
 <?php
- $p = $_POST["Persons name"];
- $Gender =$_POST["Gender"];
+ $p = $_GET["Persons name"];
+ $Gender =$_GET["Gender"];
   echo $Personsname . $Gender;
   echo $MainSuperheroPower;
 ?>
