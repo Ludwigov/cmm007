@@ -1,5 +1,5 @@
 <?php
-$forename=$_Post["forename"];
-$surname=$_Post["surname"];
-echo $forename.$surname;
+$forename=$_POST["forename"];
+$surname=$_POST["surname"];
+echo "The name is {$forename} {$surname}";
 ?>
