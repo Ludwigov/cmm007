@@ -1,4 +1,5 @@
 
+
 <form action="formResponse.php" metyhod="post">
  <label>Persons name</label><input type="text" name ="Persons name">;
  <label>Gender</label><input type="text" name ="Gender">;

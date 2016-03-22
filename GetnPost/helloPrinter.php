@@ -2,6 +2,7 @@
 
     $p = $_GET['planet'];
 
+
 ?>
 
 <html>
