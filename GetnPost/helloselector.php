@@ -1,8 +1,3 @@
-<?php
-  $planet = $_GET['planet'];
- echo "planet is".$Mars;
-
-?>
 
 <html>
 <head>
@@ -10,9 +5,9 @@
 </head>
 
 <body>
-<a href="http://1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Earth">Earth</a>"
-<a href="http://1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Mars">Mars</a>
-<a href="http://1405114.azurewebsite.net/GetnPost/helloPrinter.php?planet=Uranus">Uranus</a>
+<a href="helloPrinter.php?planet=Earth">Earth</a>"
+<a href="helloPrinter.php?planet=Mars">Mars</a>
+<a href="helloPrinter.php?planet=Uranus">Uranus</a>
 <main>
 
     <p>Hello <?php echo $p; ?></p>
