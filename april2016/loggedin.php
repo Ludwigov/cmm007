@@ -1,5 +1,7 @@
 <?php
-///CHECKING SESSION DATA
+///START THE SESSION,
+///SETS $ACCESSLEVEL FROM THYE COOKIE
+///PASSSES ACCESS LEVEL INTO THE FUNCTION
 
   session_start();
   $accesslevel =$_COOKIE['access_Level_cookie'];
