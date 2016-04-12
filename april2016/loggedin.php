@@ -2,7 +2,9 @@
 ///START THE SESSION,
 ///SETS $ACCESS LEVEL FROM THE COOKIE
 ///PASSES ACCESS LEVEL INTO THE FUNCTION
+echo "aaa";
 
+/*
   session_start();
   $accesslevel =$_COOKIE['access_Level_cookie'];
 
@@ -17,4 +19,5 @@
          echo "<p<p style = \"background-color: red\">You are currently logged as a root user</p>";
          echo "<p<p style = \"background-color: red\">You now have access to additional administrative features</p>";
      }
+*/
   ?>
