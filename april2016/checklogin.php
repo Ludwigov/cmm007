@@ -1,8 +1,12 @@
 <?php
-     $username = $_POST["Ludov"];
- $password = $_POST["goodluckludov"];
+     $username = $_POST["username"];
+ $password = $_POST["password"];
 
- setcookie('access_level','standarduser');
+if ($username =="Ludov" && $password=="goodluckludov")
+{
+    setcookie('access_level_cookie','standarduser');
+}
+    header('Location: loggedin.php');
 
 ?>
 
