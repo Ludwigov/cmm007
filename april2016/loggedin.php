@@ -2,11 +2,10 @@
 ///START THE SESSION,
 ///SETS $ACCESS LEVEL FROM THE COOKIE
 ///PASSES ACCESS LEVEL INTO THE FUNCTION
-echo "aaa";
 
 
   session_start();
-  $accesslevel =$_COOKIE['access_Level_cookie'];
+  $accessLevel =$_COOKIE['access_Level_cookie'];
 
  displayAccessLevelInformation($accessLevel);
 
