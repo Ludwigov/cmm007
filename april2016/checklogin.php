@@ -1,6 +1,6 @@
 <?php
-     $username = "Mike";
- $password = "mysecretpassword";
+     $username = "Ludov";
+ $password = "goodluckludov";
 
  setcookie('access_level','standarduser');
 
