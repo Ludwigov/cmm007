@@ -46,4 +46,14 @@ img {
 /*#head{
     align:center;
 
-}
+}#tonia{
+  clear: both;
+    background-color: #363636;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    width: 960px;
+    padding-top: 5px;
+ }
