@@ -9,12 +9,14 @@
     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 </texarea><br>
+<form action="printPOST.php" method="post">
 <input type="text" id="theinput" name="theinput"/>
 <select name="thelist" onchange="combo(this, 'theinput')" onMouseOut="comboInit(this, 'theinput')">
     <option>cat</option>
     <option>dog</option>
     <option>misc</option>
 </select>
+    </form>
 <br>
 <p><input type="submit" value="submit"></p>
 </body>
