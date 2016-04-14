@@ -4,7 +4,10 @@
         $thelist = $_POST['thelist'];
         $lastname = $_POST[''];
         $addname = $_POST['theinput'];
-        echo "Now are you are here";
+        $textarea = $_POST['textarea'];
+
+        echo "Now are you are here" . "<br>";
         echo $addname . "<br>";
-        echo $thelist;
+        echo $thelist . "<br>";
+        echo $textarea;
     }
