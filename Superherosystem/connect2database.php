@@ -1,5 +1,5 @@
      <?
-     include ("db_connecvt.php");
+     include ("db_connect.php");
      $sql_query ="SELECT * FROM superheros";
      $result = $db->query($sql_query);
      while($row = $results->fetch_array())
