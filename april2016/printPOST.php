@@ -2,7 +2,6 @@
 
     if(isset($_POST['submit'])) {
         $thelist = $_POST['thelist'];
-        $lastname = $_POST[''];
         $addname = $_POST['theinput'];
         $textarea = $_POST['textarea'];
 
