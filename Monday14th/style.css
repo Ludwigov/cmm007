@@ -47,9 +47,9 @@ body {
 
 }
 #mosa{
-    width: 300px;
+    width: 31%;
     float: left;
-    margin:10px;
+    margin:1%;
 
 }
 
@@ -60,7 +60,7 @@ body {
 
 }
 #vosa{
-    width:300px;
+    width:31%;
     float: right;
     margin: 10%;
     padding-bottom: 1%;
