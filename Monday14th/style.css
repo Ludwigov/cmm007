@@ -26,18 +26,19 @@ body {
     float: left;
     margin-left:1%;
     padding: 1%;
+    margin-top: 15%;
 }
 
 #rosa {
     width: 300px;
     display: inline-block;
-    margin-top:25%;
+    margin-top:15%;
     }
 
 #paso {
     width: 300px;
     float: right;
-    margin-top: 25%;
+    margin-top: 15%;
     padding-left: 1%;
 }
 
