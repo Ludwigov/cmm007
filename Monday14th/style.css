@@ -21,7 +21,7 @@ body {
 }
 
 #lyso {
-    width: 300px;
+    width: 31%;
     float: left;
     margin-left:1%;
     padding: 1%;
@@ -29,13 +29,13 @@ body {
 }
 
 #rosa {
-    width: 300px;
+    width: 31%;
     display: inline-block;
     margin-top:1%;
     }
 
 #paso {
-    width: 300px;
+    width: 31%;
     float: right;
     margin-top: 1%;
     padding-left: 1%;
