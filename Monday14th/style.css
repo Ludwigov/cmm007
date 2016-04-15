@@ -31,12 +31,12 @@ body {
     width: 240px;
     display: inline-block;
     margin:5%;
-}
+}f
 
 #paso {
     width: 300px;
     float: right;
-    margin: 5%;
+    margin-top: 25%;
 }
 
 #tof1 {
