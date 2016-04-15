@@ -24,19 +24,19 @@ body {
 #lyso {
     width: 300px;
     float: left;
-    margin:10%;
+    margin:1%;
 }
 
 #rosa {
     width: 240px;
     display: inline-block;
-    margin:10%;
+    margin:5%;
 }
 
 #paso {
-    width: 290px;
+    width: 30%;
     float: right;
-    margin: 10%;
+    margin: 5%;
 }
 
 #tof1 {
