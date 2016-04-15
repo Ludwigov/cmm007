@@ -47,7 +47,7 @@ body {
 
 }
 #mosa{
-    width: 31%;
+    width: 350px;
     float: left;
     margin:1%;
 
@@ -61,7 +61,7 @@ body {
 }
 
 #vosa{
-    width:31%;
+    width:350px;
     float: right;
 }
 
