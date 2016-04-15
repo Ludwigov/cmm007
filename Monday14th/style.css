@@ -56,26 +56,29 @@ body {
 }
 
 #vosa{
-    width:25%;
+    width:300px;
     float: right;
-    margin:1%;
+    margin-right:10%;
     padding:1%;
 }
 #tof2 {
-    width: 240px;
+    width: 29%;
     display: inline-block;
     margin: 1%;
     padding: 1%;
 }
 
-#tonia{
-  clear: both;
+#tof3{
+    margin-bottom: 20%;
+    padding:1%;
+}
+#tonia {
+    clear: both;
     background-color: #363636;
     text-align: center;
-    color: white;
+    color: blue;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 40px;
+    padding-bottom: 10%;
     width: 960px;
-    padding-top: 5px;
- }
+}
