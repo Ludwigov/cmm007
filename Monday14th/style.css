@@ -38,7 +38,7 @@ body {
     width: 31%;
     float: right;
     margin-top: 1%;
-    padding-left: 1%;
+
 }
 
 #tof1 {
@@ -50,7 +50,7 @@ body {
     width: 300px;
     float: left;
     margin:10px;
-    padding:1%;
+
 }
 
 #mi{
@@ -80,7 +80,7 @@ body {
 }
 #tonia {
     clear: both;
-    background-color: #363636;
+    background-color: aqua;
     text-align: center;
     color: blue;
     margin-left: auto;
