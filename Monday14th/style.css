@@ -24,11 +24,11 @@ body {
 #lyso {
     width: 300px;
     float: left;
-    margin:10px;
+    margin-left:1%;
 }
 
 #rosa {
-    width: 240px;
+    width: 300px;
     display: inline-block;
     margin-top:25%;
 }
