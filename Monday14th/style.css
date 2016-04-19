@@ -59,7 +59,7 @@ body {
     width: 31%;
     float: left;
     margin:1%;
-    padding-bottom: 1%;
+    padding-bottom: 10%;
 }
 
 #vosa{
@@ -72,7 +72,7 @@ body {
 #tof2 {
     width: 31%;
     display: inline-block;
-    margin: 0%;
+    margin: 1%;
 }
 
 
