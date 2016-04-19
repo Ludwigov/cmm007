@@ -2,6 +2,7 @@ body {
     border: 2px dashed blue;
     overflow: hidden;
     background-color:white;
+    position:relative;
 }
 
 
