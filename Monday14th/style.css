@@ -39,14 +39,15 @@ body {
     float: right;
     margin-top: 1%;
     padding : 1%;
-    margin: 1%;
+    margin-right: 1%;
 }
 
-#tof1 {
+/**#tof1 {
     max-width:960px;
 
 
-}
+}**/
+
 #mosa{
     width: 300px;
     float: left;
