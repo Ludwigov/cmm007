@@ -51,12 +51,16 @@ body {
 
 #mi{
     width: 31%;
-
+    float: left;
+    margin:1%;
+    padding:1%;
 }
 
 #vosa{
     width:31%;
-
+    float: right;
+    margin:1%;
+    padding:1%;
 
 }
 
