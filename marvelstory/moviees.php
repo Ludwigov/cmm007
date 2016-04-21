@@ -7,9 +7,9 @@
  */
 
           $movies=$_GET['Allmovies'];
-          $marvel=$_GET['MarvelMovies'];
-          $after=$_GET['MoviesAfter2010'];
-          $Xmen=$_GET['MoviesXmen'];
+          $marvel=$_GET['Marvelmovies'];
+          $after=$_GET['Moviesafter2010'];
+          $Xmen=$_GET['Xmenmovies'];
       if($movies){
           $sql="SELECT * FROM marvelmovies ";
           $result=$db->query($sql);
