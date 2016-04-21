@@ -10,10 +10,10 @@ include("dbconnect.php");?>
       <h1>Movie Links</h1>
 
       <ul>
-          <li><a href="login.php?moviees=Allmovies">Display All Movies</a></li>
-          <li><a href="login.php?moviees=Marvelmovies">Marvel Studio Movies </a></li>
-          <li><a href="login.php?moviees=Moviesafter2010">Movies after 2010</a></li>
-          <li><a href="login.php?moviees=Xmenmovies">Movies by X-men</a></li>
+          <li><a href="moviees.php?moviees=Allmovies">Display All Movies</a></li>
+          <li><a href="moviees.php?moviees=Marvelmovies">Marvel Studio Movies </a></li>
+          <li><a href="moviees.php?moviees=Moviesafter2010">Movies after 2010</a></li>
+          <li><a href="moviees.php?moviees=Xmenmovies">Movies by X-men</a></li>
       </ul>
 
       </body>
