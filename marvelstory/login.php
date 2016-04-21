@@ -7,7 +7,7 @@ include("dbconnect.php");?>
             <title>Choices watching Marvelmovies</title>
       </head>
       <body>
-      <h1>Movie Links</h1>
+      <h1>Movie Link</h1>
 
       <ul>
           <li><a href="moviees.php?moviees=Allmovies">Display All Movies</a></li>
