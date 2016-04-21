@@ -10,16 +10,16 @@
       <h1>Movie Links</h1>
 
       <ul>
-          <li><a href="login.php?location=allmovies">Display All Movies</a></li>
-          <li><a href="login.php?location=marvelMovies">Marvel Studio Movies </a></li>
-          <li><a href="login.php?location=after2010">Movies after 2010</a></li>
-          <li><a href="login.php?location=xmen">Movies by X-men</a></li>
+          <li><a href="login.php?location=Allmovies">Display All Movies</a></li>
+          <li><a href="login.php?location=Marvelmovies">Marvel Studio Movies </a></li>
+          <li><a href="login.php?location=Moviesafter2010">Movies after 2010</a></li>
+          <li><a href="login.php?location=Xmenmovies">Movies by X-men</a></li>
       </ul>
           <?php
-          $movies=$_GET['allmovies'];
-          $marvel=$_GET['marvelMovies'];
-          $after=$_GET['after2010'];
-          $Xmen=$_GET['xmen'];
+          $movies=$_GET['Allmovies'];
+          $marvel=$_GET['MarvelMovies'];
+          $after=$_GET['MoviesAfter2010'];
+          $Xmen=$_GET['MoviesXmen'];
       if($movies){
           $sql="SELECT* FROM marvelmovies ";
           $result=$db->query($sql);
@@ -61,22 +61,26 @@
                   echo "{$marvelMovieID}.{$yearReleased}.{$title}.{$productionStudio}.{$notes}";
               }
           }
-       if($Xmen){
-              $sql="SELECT * FROM marvelmovies WHERE  title LIKE 'X-men'";
-              $result=$db->query($sql);
-              while($row=$result->fetch_array()){
-                  $marvelMovieID=$row['marvelMovieID'];
-                  $yearReleased=$row['yearReleased'];
-                  $title=$row['title'];
-                  $productionStudio=$row['productionStudio'];
-                  $notes=$row['notes'];
+       if($Xmen) {
+           $sql = "SELECT * FROM marvelmovies WHERE  title LIKE 'X-men'";
+           $result = $db->query($sql);
+           while ($row = $result->fetch_array()) {
+               $marvelMovieID = $row['marvelMovieID'];
+               $yearReleased = $row['yearReleased'];
+               $title = $row['title'];
+               $productionStudio = $row['productionStudio'];
+               $notes = $row['notes'];
 
-                  echo "{$marvelMovieID}.{$yearReleased}.{$title}.{$productionStudio}.{$notes}";
-              }
-       }
+               echo "{$marvelMovieID}.{$yearReleased}.{$title}.{$productionStudio}.{$notes}";
+            }
+//           ////***
+//             $sql = "INSERT INTO movies () VALUES() ";
+//             $sql = "INSERT INTO marvel () VALUES() ";
+//             $sql = "INSERT INTO after () VALUES() ";
+//             $sql = "INSERT INTO Xmen () VALUES() ";
+//              ***////
+//       }
 
           ?>
-
-
       </body>
       </html>

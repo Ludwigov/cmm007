@@ -1,4 +1,4 @@
-  <?php
+   <?php
   define('DB_SERVER', 'eu-cdbr-azure-west-d.cloudapp.net');
   define('DB_USERNAME', 'b59e1a30e808bc');
   define('DB_PASSWORD', '4b543517');
