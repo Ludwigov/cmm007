@@ -72,7 +72,7 @@
                $notes = $row['notes'];
 
                echo "{$marvelMovieID}.{$yearReleased}.{$title}.{$productionStudio}.{$notes}";
-            }
+           }
 //           ////***
 //             $sql = "INSERT INTO movies () VALUES() ";
 //             $sql = "INSERT INTO marvel () VALUES() ";
@@ -80,6 +80,7 @@
 //             $sql = "INSERT INTO Xmen () VALUES() ";
 //              ***////
 //       }
+       }
 
           ?>
       </body>
