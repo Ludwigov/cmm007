@@ -5,7 +5,7 @@
  * Date: 21/04/2016
  * Time: 18:10
  */
-
+include("dbconnect.php");
           $movies=$_GET['Allmovies'];
           $marvel=$_GET['Marvelmovies'];
           $after=$_GET['Moviesafter2010'];
