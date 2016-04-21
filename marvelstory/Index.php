@@ -22,6 +22,7 @@
      </form>
    </div>
 <?php
+include("dbconnect.php");
 $sql= "SELECT * FROM users";
 $resp=$db->query($sql);
 if(empty($_GET['username'])||(empty ($_GET['password']))){
