@@ -28,7 +28,7 @@ $resp=$db->query($sql);
 if(empty($_GET['username'])||(empty ($_GET['password']))){
     echo "<p>"."Both fields are Required"."</p>";
 }else {
-    if (mysql_num_rows($resp)==1) {
+    if (mysqli_num_rows($resp)==1) {
         header("location:login.php");
     }else{echo "Username or Password Incorrect";}
 }
