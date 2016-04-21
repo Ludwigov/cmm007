@@ -11,7 +11,7 @@
 <div class="loginBox">
      <h3>Login Form</h3>
      <br><br>
-     <form method="get" action="login.php">
+     <form method="get" action="Index.php">
          <label>Username:</label><br>
          <input type="text" name="username" placeholder="username"
      /><br><br>
@@ -21,11 +21,18 @@
          <input type="submit" name="submit" value = "login" />
      </form>
    </div>
-$sql= "SELECT * uid FROM users";
+<?php
+$sql= "SELECT * FROM users";
 $resp=$db->query($sql);
-
-if($resp($_GET['username'])||($_GET['password']==1){
+if(empty($_GET['username'])||(empty ($_GET['password']))){
+    echo "<p>"."Both fields are Required"."</p>";
+}else {
+    if (mysql_num_rows($resp)==1) {
+        header("location:login.php");
+    }else{echo "Username or Password Incorrect";}
 }
 
+
+?>
 </body>
 </html>
