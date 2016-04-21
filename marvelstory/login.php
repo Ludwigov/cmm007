@@ -1,6 +1,6 @@
-      <?include("dbconnect.php"); ?> //Establishing connection with our database
-
-      <!DOCTYPE html>
+<?php
+include("dbconnect.php");?>
+<!DOCTYPE html>
       <html lang="en">
       <head>
             <meta charset="UTF-8">
