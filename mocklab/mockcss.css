@@ -1,9 +1,9 @@
 main {
-    max-width: 500px;
+    width: 500px;
     margin-right:auto;
     margin-left: auto;
-    height:500px;
-    display:inline-flex;
+    height:400px;
+    display:flex;
 
 }
 
