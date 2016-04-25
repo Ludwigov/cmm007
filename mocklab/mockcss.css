@@ -1,5 +1,5 @@
 main {
-    border: 500px;
+    max-width: 500px;
     margin-right:auto;
     margin-left: auto;
     height:400px;
@@ -15,21 +15,21 @@ li {
     float: left;
 }
 
-.header{
-    margin-top: 5%;
+header{
+    height: 100px;
+    width:400px;
 }
 #alpha1{
-    order: 2;
+    border-width: 500px;
 
 }
 
 #alpha2{
-    order:1;
-    flex-grow:1;
+    float:left
 }
 
 #Alpha3{
-  float:left;
+  float:right;
 }
 
 #Alpha4{
