@@ -1,0 +1,34 @@
+main {
+    max-width: 960px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    float: left;
+}
+
+#alpha2{
+    float:left;
+}
+
+
+#Alpha3{
+  float:left;
+}
+
+#Alpha4{
+width: 33%;
+}
+
+#Alpha5{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    width: 960px;
+}

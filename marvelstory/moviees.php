@@ -65,7 +65,7 @@ include("dbconnect.php");
                $notes = $row['notes'];
 
                echo "{$marvelMovieID}.{$yearReleased}.{$title}.{$productionStudio}.{$notes}";
-              
+
            }
        }
 //           ////***
