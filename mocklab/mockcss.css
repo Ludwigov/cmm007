@@ -15,10 +15,13 @@ li {
     float: left;
 }
 
-#alpha2{
+#alpha1{
     float:left;
 }
 
+#alpha2{
+    float:right;
+}
 
 #Alpha3{
   float:left;
