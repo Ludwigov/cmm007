@@ -17,12 +17,17 @@ li {
     float: left;
 }
 
+.header{
+    margin-top: 5%;
+}
 #alpha1{
-    float:left;
+    order: 2;
+
 }
 
 #alpha2{
-    float:right;
+    order:1;
+    flex-grow:1;
 }
 
 #Alpha3{
