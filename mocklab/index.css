@@ -1,0 +1,27 @@
+body{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo{
+    height: 100px;
+    width:100px;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+}
