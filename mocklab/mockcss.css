@@ -1,7 +1,14 @@
 main {
     border-color:blue;
     border-style:solid: 500px;
-    border-width:10px;
+    border-width:5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+
+
 }
 
 ul {
