@@ -2,6 +2,7 @@ main {
     border-color:blue;
     border-style:solid: 500px;
     border-width:5px;
+    border-bottom: 40%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -32,16 +33,19 @@ header{
 }
 
 #alpha2{
-    float:left
+    float:right;
 }
 
 #Alpha3{
-  float:right;
-    width:29%;
+  width-500px;
+
 }
 
+#sade{
+
+}
 #Alpha4{
-    width: 41%;
+    width: 31%;
     float:right;
 }
 
@@ -49,6 +53,6 @@ header{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 40px;
-    width: 960px;
+    padding-bottom: 20px;
+    width: 500px;
 }
