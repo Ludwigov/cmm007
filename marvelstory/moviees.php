@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1405114
- * Date: 21/04/2016
- * Time: 18:10
- */
-include("dbconnect.php");
+ include("dbconnect.php");
           $rest=$_GET['moviees'];
         switch($rest) {
             case 'Allmovies':
