@@ -50,17 +50,17 @@
               echo "<li>{$name} {$summary} {$category}</li>";
           }
 
-   <form>
+<!--   <form>
      <table><p>
              <table width="100%"></table>
        <tr><td > Name:</td ><td ><input type="text" class="form2" name="link" /></td></tr>
        <tr><td > Summary:</td ><td ><textarea class="form2" cols ="101" rows="5" /></td></tr>
        <tr><td > Category:</td ><td ><input type="text" class="form2" name="category" /></td></tr>
      </table ></p >
-    </form ><br >
+    </form ><br >-->
               }
      }
-   ?>
+
 
 
 
