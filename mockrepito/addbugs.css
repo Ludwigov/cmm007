@@ -28,6 +28,7 @@ main{
 }
 
 .content{
+    max-width: 650px;
     display:flex;
     justify-content: center;
 
