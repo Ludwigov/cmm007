@@ -23,17 +23,9 @@ header{
 
 main{
     display:flex;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
 }
 
-/*.content{
-    margin-right: auto;
-    margin-left: auto
-    display:flex;
-    justify-content: center*/
-
-}
 li a{
     display: block;
     padding: 8px 0 8px 16px;
@@ -46,6 +38,15 @@ ul {
     margin:0;
     padding:0;
 }
+
+.hr{
+    width:75%;
+    height:1px;
+    background: #0B0D02;
+    content:"";
+
+}
+
 #footer{
     max-width: 650px;
     margin-right: auto;
