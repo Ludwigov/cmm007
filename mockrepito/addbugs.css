@@ -22,18 +22,15 @@ header{
 }
 
 main{
-    max-width: 650px;
-    margin-right: auto;
-    margin-left: auto;
     display:flex;
     justify-content: center;
 }
 
-.content{
+/*.content{
     margin-right: auto;
     margin-left: auto
     display:flex;
-    justify-content: center;
+    justify-content: center*/
 
 }
 li a{
