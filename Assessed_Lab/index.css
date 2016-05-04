@@ -5,10 +5,10 @@ body{
 
 }
 
-header{
-    margin-right: auto;
-    margin-left: auto;
+header {
+    flex-direction: column;
     display: flex;
+}
 
 #lyda{
     height: 200px;
@@ -20,6 +20,9 @@ main{
     justify-content: center;
 }
 
+li{
+    float: left;
+}
 li a{
     display: inline-block;
     text-align: center;
@@ -32,4 +35,4 @@ ul{
     padding: 0;
 
 }
-}
+
