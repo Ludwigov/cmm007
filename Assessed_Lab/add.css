@@ -1,0 +1,45 @@
+body{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto
+
+}
+
+header {
+    flex-direction: column;
+    display: flex;
+}
+
+#lyda{
+    height: 200px;
+    width: 200px;
+}
+#content{
+    float: left;
+    margin-left: 0px;
+
+}
+#blog{
+    float: right;
+    margin-right: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
