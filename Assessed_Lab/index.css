@@ -1,0 +1,35 @@
+body{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto
+
+}
+
+header{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+#lyda{
+    height: 200px;
+    width: 200px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+li a{
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+}
