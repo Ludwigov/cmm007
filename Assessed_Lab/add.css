@@ -15,8 +15,11 @@ header {
     width: 200px;
 }
 #content{
-    float: left;
-    margin-left: 0px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+
+
 
 }
 #blog{
