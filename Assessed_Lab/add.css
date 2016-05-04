@@ -46,3 +46,7 @@ ul{
     padding: 0;
 
 }
+#footer{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
