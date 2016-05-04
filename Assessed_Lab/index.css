@@ -14,7 +14,15 @@ header {
     height: 200px;
     width: 200px;
 }
+#content{
+    float: left;
+    margin-left: 0px;
 
+}
+#blog{
+    float: right;
+    margin-right: 0px;
+}
 main{
     display: flex;
     justify-content: center;
